@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+a, a:hover, a:active, a:target {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul, li {
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+img {
+    display: inline-block;
+    border: none;
+}
+
+#head {
+    background-color: #303a40;
+}
+
+#head .logo {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#head .logo .logo_left {
+    padding: 5px 20px 5px 0;
+    width: 110px;
+}
+
+#head .logo .logo_left a {
+}
+
+#head .logo .logo_left img {
+    width: 110px;
+    height: 40px;
+}
+
+#head .logo_right {
+    position: absolute;
+    top: 0;
+    left: 675px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+
+#head .logo_right a {
+    color: #999999;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+#head .logo_right a:hover {
+    color: #ffffff;
+}
+
+#head .logo_right .logo_span {
+    display: inline-block;
+    margin: 0 5px;
+    border-right: 1px dotted #cccccc;
+    height: 16px;
+    vertical-align: middle;
+}
+
+#logo_bottom {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 184px;
+    background-color: #ffffff;
+    z-index: 101;
+    border: 2px solid #999999;
+}
+
+#logo_bottom .logo_h {
+    border-bottom: 1px dotted #cccccc;
+}
+
+#logo_bottom span {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#logo_bottom .logo_img {
+    position: absolute;
+    padding: 15px 15px;
+}
+
+#logo_bottom ul {
+    position: relative;
+    top: 10px;
+    left: 150px;
+
+}
+
+#head_logo .logo_head {
+    line-height: 50px;
+}
+
+#logo_bottom {
+    display: none;
+}
+
+#logo_bottom li {
+    margin: 5px 10px 10px 0;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #08BECE;
+    border-radius: 3px;
+}
+
+.logo_right #logo_bottom ul li a {
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.logo_right #logo_bottom ul li:hover {
+    background: #2192bc;
+}
+
+.logo_right #logo_bottom ul li a i {
+    color: #ffffff;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+}
+
+.container {
+    margin-top: 0;
+    background: url("seaver.jpg") no-repeat center top #2f6f75;
+}
+
+.container, .wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .wrap {
+    position: relative;
+    height: 669px;
+    width: 980px;
+    z-index: 50;
+}
+
+.container .side {
+    position: relative;
+    float: left;
+    margin-top: 67px;
+    width: 598px;
+    height: 470px;
+}
+
+#side-box {
+    margin-bottom: 26px;
+    width: 598px;
+}
+
+#side-box .side-input {
+    height: 32px;
+    padding: 7px 138px 5px 0;
+    overflow: hidden;
+    border: 2px solid #ff9500;
+    background-color: #fff;
+}
+
+#side-box .side-input input {
+    width: 100%;
+    height: 28px;
+    outline: 0 none;
+    border: 0 none;
+    font-size: 16px;
+    color: #666;
+    text-indent: 20px;
+}
+
+#side-box .side-button .side-btn {
+    width: 138px;
+    height: 48px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    left: 458px;
+
+    background-color: #ff9500;
+    border: 1px solid #ff9500;
+}
+.container .side .side-content-left {
+    float: left;
+    width: 112px;
+}
+
+.container .side .side-content-left ul {
+    background: rgba(198, 198, 198, .3);
+}
+
+.container .side .side-content-left ul li {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    height: 65px;
+    line-height: 66px;
+    cursor: pointer;
+}
+
+.container .side .side-content-left ul li.bg {
+    background-color: rgba(132, 132, 132, .2);
+}
+
+.container .side .side-content-right {
+    position: relative;
+    width: 471px;
+    height: 395px;
+    float: right;
+    overflow: hidden;
+}
+
+.container .side .side-content-right ul {
+    margin-right: -4px;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    height: 396px;
+    -webkit-transition: all .6s;
+    width: 528px;
+}
+
+.container .side .side-content-right ul li {
+    float: left;
+    margin: 0 4px 5px 0;
+    line-height: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.container .side .side-content-right ul li a {
+    display: inline-block;
+    opacity: .7;
+    float: left;
+
+}
+
+.container .side .side-content-right ul li a:hover {
+    opacity: 1;
+}
+
+.container .side .side-content-right .company-logo {
+    width: 154px;
+    height: 75px;
+}
+
+.container .login {
+    background: #fff;
+    float: right;
+    width: 370px;
+    position: relative;
+    height: 445px;
+    margin-top: 67px;
+}
+
+.container .login h3 {
+    color: #ff9500;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 400;
+    height: 57px;
+    line-height: 57px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 30px;
+}
+
+form {
+    display: block;
+}
+
+#register form {
+    padding: 0 30px;
+    position: relative;
+}
+
+#register .logo-from {
+    margin-bottom: 20px;
+    height: 46px;
+}
+
+#register input.info {
+    width: 294px;
+}
+
+#register input.text {
+    height: 18px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 14px 7px;
+    font-size: 16px;
+}
+
+input.text {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+#register .btn-light {
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    width: 140px;
+    color: #3d9ccc;
+    background: #e9f1f5;
+    border: 1px solid #e4ecf0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: -5px;
+    padding: 5px 12px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#register .input-code {
+    width: 114px;
+}
+
+#register .button .btn {
+    background: #ff9500;
+    color: #fff;
+    font-size: 24px;
+    height: 58px;
+    line-height: 58px;
+    width: 310px;
+    padding: 0;
+    border: 0;
+}
+
+label {
+    display: inline-block;
+}
+
+#register .logo-label {
+    padding-top: 19px;
+}
+
+#register label {
+    line-height: 16px;
+    height: 16px;
+    font-size: 16px;
+}
+#register .logo-checkbox{
+    margin-right: 5px;
+}
+#register label a:hover{
+    text-decoration: underline;
+}
+#register .logo-from p{
+    background: #f8f8f8;
+    height: 56px;
+    line-height: 56px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+#register .logo-from p a{
+    margin-right:20px;
+    color: #0088bb;
+    text-decoration: none;
+    font-size: 18px;
+}
+#footer{
+    background: #f6f6f6;
+    color: #999;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#footer p{
+    margin: 0;
+}
+
